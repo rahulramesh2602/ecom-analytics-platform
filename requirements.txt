@@ -4,3 +4,4 @@ nltk
 kaggle
 psycopg2-binary
 sqlalchemy
+dbt-postgres
