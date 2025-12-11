@@ -3,6 +3,7 @@ version: 2
 sources:
   - name: raw_data
     description: Raw e-commerce data from Olist dataset
+    schema: public
     tables:
       - name: orders
         description: Order information
