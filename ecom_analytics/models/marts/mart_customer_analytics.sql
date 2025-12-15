@@ -58,7 +58,7 @@ SELECT
     info.customer_state,
     SUM(total_item_value) AS total_lifetime_revenue,
     COUNT(DISTINCT order_id) AS total_orders,
-    AVG(total_item_value) AS avg_order_value,
+    SUM(total_item_value) / COUNT(DISTINCT order_id) AS avg_order_value,
     MIN(order_purchase_timestamp) AS first_order_date,
     MAX(order_purchase_timestamp) AS last_order_date,
     fav.favorite_category,
