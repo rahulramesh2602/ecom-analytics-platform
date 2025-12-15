@@ -5,7 +5,6 @@
     - Track monthly revenue trends and growth
     - Monitor order volume patterns
     - Identify seasonal trends
-    - Executive dashboard ready
     
     Grain: One row per month
     
