@@ -88,3 +88,19 @@ Happy modeling!
 [0m11:07:25.672756 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10501aea0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10503dd90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x104a6d260>]}
 [0m11:07:25.672962 [debug] [MainThread]: Flushing usage events
 [0m11:07:26.581268 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m12:19:19.373201 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x111706900>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x113ff7d90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x113ff7c50>]}
+
+
+============================== 12:19:19.382213 | 90a0ff1e-6ce5-4355-99ae-75f9bfc02433 ==============================
+[0m12:19:19.382213 [info ] [MainThread]: Running with dbt=1.10.15
+[0m12:19:19.382702 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'invocation_command': 'dbt show --select int_orders_joined --limit 5', 'profiles_dir': '/Users/raramesh/.dbt', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'use_colors': 'True', 'target_path': 'None', 'send_anonymous_usage_stats': 'True', 'warn_error': 'None', 'empty': 'None', 'introspect': 'True', 'write_json': 'True', 'indirect_selection': 'eager', 'fail_fast': 'False', 'log_cache_events': 'False', 'log_path': 'logs', 'cache_selected_only': 'False', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'debug': 'False', 'version_check': 'True', 'static_parser': 'True', 'log_format': 'default', 'partial_parse': 'True'}
+[0m12:19:19.383103 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path /Users/raramesh/Desktop/Project/ecom-analytics-platform/dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m12:19:19.384876 [debug] [MainThread]: Resource report: {"command_name": "show", "command_success": false, "command_wall_clock_time": 0.08627904, "process_in_blocks": "0", "process_kernel_time": 0.195855, "process_mem_max_rss": "127451136", "process_out_blocks": "0", "process_user_time": 1.279456}
+[0m12:19:19.385224 [debug] [MainThread]: Command `dbt show` failed at 12:19:19.385159 after 0.09 seconds
+[0m12:19:19.385423 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x113f0f360>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x113dff770>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x113d8f240>]}
+[0m12:19:19.385598 [debug] [MainThread]: Flushing usage events
+[0m12:19:19.857092 [debug] [MainThread]: An error was encountered while trying to flush usage events
