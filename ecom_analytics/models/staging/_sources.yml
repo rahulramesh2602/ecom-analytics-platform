@@ -1,0 +1,25 @@
+version: 2
+
+sources:
+  - name: raw_data
+    description: Raw e-commerce data from Olist dataset
+    schema: public
+    tables:
+      - name: orders
+        description: Order information
+      - name: products  
+        description: Product information
+      - name: customers
+        description: Customer information
+      - name: order_items
+        description: Items within each order
+      - name: order_reviews
+        description: Customer reviews
+      - name: order_payments
+        description: Payment information
+      - name: sellers
+        description: Seller information
+      - name: geolocation
+        description: Geolocation data
+      - name: product_category_name_translation
+        description: Product category translations

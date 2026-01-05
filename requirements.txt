@@ -4,3 +4,7 @@ nltk
 kaggle
 psycopg2-binary
 sqlalchemy
+dbt-postgres
+jupyter
+ipykernel
+notebook

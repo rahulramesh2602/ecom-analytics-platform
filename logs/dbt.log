@@ -1,0 +1,106 @@
+[0m11:00:13.361746 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x104388590>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1051cfb10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1051cfd90>]}
+
+
+============================== 11:00:13.365497 | 6e56d641-75b4-49c4-9100-e7552f063219 ==============================
+[0m11:00:13.365497 [info ] [MainThread]: Running with dbt=1.10.15
+[0m11:00:13.365841 [debug] [MainThread]: running dbt with arguments {'no_print': 'None', 'log_cache_events': 'False', 'use_experimental_parser': 'False', 'cache_selected_only': 'False', 'quiet': 'False', 'use_colors': 'True', 'log_format': 'default', 'static_parser': 'True', 'write_json': 'True', 'fail_fast': 'False', 'partial_parse': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'invocation_command': 'dbt init ecom_analytics', 'version_check': 'True', 'log_path': 'logs', 'target_path': 'None', 'empty': 'None', 'warn_error': 'None', 'indirect_selection': 'eager', 'printer_width': '80', 'debug': 'False', 'send_anonymous_usage_stats': 'True', 'profiles_dir': '/Users/raramesh/.dbt', 'introspect': 'True'}
+[0m11:00:13.378206 [info ] [MainThread]: Creating dbt configuration folder at /Users/raramesh/.dbt
+[0m11:00:13.379308 [debug] [MainThread]: Starter project path: /Users/raramesh/Desktop/Project/ecom-analytics-platform/venv/lib/python3.13/site-packages/dbt/include/starter_project
+[0m11:00:13.389534 [info ] [MainThread]: 
+Your new dbt project "ecom_analytics" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m11:00:13.389829 [info ] [MainThread]: Setting up your profile.
+[0m11:02:46.914488 [info ] [MainThread]: Profile ecom_analytics written to /Users/raramesh/.dbt/profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m11:02:46.970415 [debug] [MainThread]: Resource report: {"command_name": "init", "command_success": true, "command_wall_clock_time": 153.68875, "process_in_blocks": "0", "process_kernel_time": 0.192252, "process_mem_max_rss": "110526464", "process_out_blocks": "0", "process_user_time": 0.700604}
+[0m11:02:46.971410 [debug] [MainThread]: Command `dbt init` succeeded at 11:02:46.971231 after 153.69 seconds
+[0m11:02:46.972082 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10590c640>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1042771d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10527bac0>]}
+[0m11:02:46.972632 [debug] [MainThread]: Flushing usage events
+[0m11:02:47.926169 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m11:07:25.431288 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x103b7c590>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1049bfb10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1049bfd90>]}
+
+
+============================== 11:07:25.435048 | 7ccb8c0e-49bf-4919-b239-ffb2743dd82b ==============================
+[0m11:07:25.435048 [info ] [MainThread]: Running with dbt=1.10.15
+[0m11:07:25.435365 [debug] [MainThread]: running dbt with arguments {'partial_parse': 'True', 'no_print': 'None', 'empty': 'None', 'fail_fast': 'False', 'printer_width': '80', 'cache_selected_only': 'False', 'warn_error': 'None', 'send_anonymous_usage_stats': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'log_format': 'default', 'write_json': 'True', 'target_path': 'None', 'log_cache_events': 'False', 'invocation_command': 'dbt debug', 'introspect': 'True', 'static_parser': 'True', 'debug': 'False', 'profiles_dir': '/Users/raramesh/.dbt', 'version_check': 'True', 'use_colors': 'True', 'quiet': 'False', 'log_path': 'logs', 'indirect_selection': 'eager', 'use_experimental_parser': 'False'}
+[0m11:07:25.444966 [info ] [MainThread]: dbt version: 1.10.15
+[0m11:07:25.445154 [info ] [MainThread]: python version: 3.13.7
+[0m11:07:25.445284 [info ] [MainThread]: python path: /Users/raramesh/Desktop/Project/ecom-analytics-platform/venv/bin/python3.13
+[0m11:07:25.445400 [info ] [MainThread]: os info: macOS-15.7.1-arm64-arm-64bit-Mach-O
+[0m11:07:25.486437 [info ] [MainThread]: Using profiles dir at /Users/raramesh/.dbt
+[0m11:07:25.486678 [info ] [MainThread]: Using profiles.yml file at /Users/raramesh/.dbt/profiles.yml
+[0m11:07:25.486809 [info ] [MainThread]: Using dbt_project.yml file at /Users/raramesh/Desktop/Project/ecom-analytics-platform/dbt_project.yml
+[0m11:07:25.487161 [info ] [MainThread]: adapter type: postgres
+[0m11:07:25.487334 [info ] [MainThread]: adapter version: 1.9.1
+[0m11:07:25.487477 [info ] [MainThread]: Configuration:
+[0m11:07:25.487595 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m11:07:25.487701 [info ] [MainThread]:   dbt_project.yml file [[31mERROR not found[0m]
+[0m11:07:25.487806 [info ] [MainThread]: Required dependencies:
+[0m11:07:25.487957 [debug] [MainThread]: Executing "git --help"
+[0m11:07:25.499326 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--no-lazy-fetch]\n           [--no-optional-locks] [--no-advice] [--bare] [--git-dir=<path>]\n           [--work-tree=<path>] [--namespace=<name>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone      Clone a repository into a new directory\n   init       Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add        Add file contents to the index\n   mv         Move or rename a file, a directory, or a symlink\n   restore    Restore working tree files\n   rm         Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect     Use binary search to find the commit that introduced a bug\n   diff       Show changes between commits, commit and working tree, etc\n   grep       Print lines matching a pattern\n   log        Show commit logs\n   show       Show various types of objects\n   status     Show the working tree status\n\ngrow, mark and tweak your common history\n   backfill   Download missing objects in a partial clone\n   branch     List, create, or delete branches\n   commit     Record changes to the repository\n   merge      Join two or more development histories together\n   rebase     Reapply commits on top of another base tip\n   reset      Reset current HEAD to the specified state\n   switch     Switch branches\n   tag        Create, list, delete or verify tags\n\ncollaborate (see also: git help workflows)\n   fetch      Download objects and refs from another repository\n   pull       Fetch from and integrate with another repository or a local branch\n   push       Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m11:07:25.499815 [debug] [MainThread]: STDERR: "b''"
+[0m11:07:25.499971 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m11:07:25.500107 [info ] [MainThread]: Connection:
+[0m11:07:25.500255 [info ] [MainThread]:   host: localhost
+[0m11:07:25.500367 [info ] [MainThread]:   port: 5432
+[0m11:07:25.500468 [info ] [MainThread]:   user: raramesh
+[0m11:07:25.500568 [info ] [MainThread]:   database: ecommerce_db
+[0m11:07:25.500668 [info ] [MainThread]:   schema: analytics
+[0m11:07:25.500764 [info ] [MainThread]:   connect_timeout: 10
+[0m11:07:25.500866 [info ] [MainThread]:   role: None
+[0m11:07:25.500960 [info ] [MainThread]:   search_path: None
+[0m11:07:25.501056 [info ] [MainThread]:   keepalives_idle: 0
+[0m11:07:25.501149 [info ] [MainThread]:   sslmode: None
+[0m11:07:25.501246 [info ] [MainThread]:   sslcert: None
+[0m11:07:25.501339 [info ] [MainThread]:   sslkey: None
+[0m11:07:25.501432 [info ] [MainThread]:   sslrootcert: None
+[0m11:07:25.501529 [info ] [MainThread]:   application_name: dbt
+[0m11:07:25.501622 [info ] [MainThread]:   retries: 1
+[0m11:07:25.501925 [info ] [MainThread]: Registered adapter: postgres=1.9.1
+[0m11:07:25.574924 [debug] [MainThread]: Acquiring new postgres connection 'debug'
+[0m11:07:25.638084 [debug] [MainThread]: Using postgres connection "debug"
+[0m11:07:25.638304 [debug] [MainThread]: On debug: select 1 as id
+[0m11:07:25.638440 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m11:07:25.668505 [debug] [MainThread]: SQL status: SELECT 1 in 0.030 seconds
+[0m11:07:25.669175 [debug] [MainThread]: On debug: Close
+[0m11:07:25.669362 [info ] [MainThread]:   Connection test: [[32mOK connection ok[0m]
+
+[0m11:07:25.669532 [info ] [MainThread]: [31m1 check failed:[0m
+[0m11:07:25.669654 [info ] [MainThread]: Project loading failed for the following reason:
+ project path </Users/raramesh/Desktop/Project/ecom-analytics-platform/dbt_project.yml> not found
+
+[0m11:07:25.672138 [debug] [MainThread]: Resource report: {"command_name": "debug", "command_success": false, "command_wall_clock_time": 0.28762496, "process_in_blocks": "0", "process_kernel_time": 0.227378, "process_mem_max_rss": "119046144", "process_out_blocks": "0", "process_user_time": 0.71822}
+[0m11:07:25.672398 [debug] [MainThread]: Command `dbt debug` failed at 11:07:25.672344 after 0.29 seconds
+[0m11:07:25.672575 [debug] [MainThread]: Connection 'debug' was properly closed.
+[0m11:07:25.672756 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10501aea0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10503dd90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x104a6d260>]}
+[0m11:07:25.672962 [debug] [MainThread]: Flushing usage events
+[0m11:07:26.581268 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m12:19:19.373201 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x111706900>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x113ff7d90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x113ff7c50>]}
+
+
+============================== 12:19:19.382213 | 90a0ff1e-6ce5-4355-99ae-75f9bfc02433 ==============================
+[0m12:19:19.382213 [info ] [MainThread]: Running with dbt=1.10.15
+[0m12:19:19.382702 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'invocation_command': 'dbt show --select int_orders_joined --limit 5', 'profiles_dir': '/Users/raramesh/.dbt', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'use_colors': 'True', 'target_path': 'None', 'send_anonymous_usage_stats': 'True', 'warn_error': 'None', 'empty': 'None', 'introspect': 'True', 'write_json': 'True', 'indirect_selection': 'eager', 'fail_fast': 'False', 'log_cache_events': 'False', 'log_path': 'logs', 'cache_selected_only': 'False', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'debug': 'False', 'version_check': 'True', 'static_parser': 'True', 'log_format': 'default', 'partial_parse': 'True'}
+[0m12:19:19.383103 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path /Users/raramesh/Desktop/Project/ecom-analytics-platform/dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m12:19:19.384876 [debug] [MainThread]: Resource report: {"command_name": "show", "command_success": false, "command_wall_clock_time": 0.08627904, "process_in_blocks": "0", "process_kernel_time": 0.195855, "process_mem_max_rss": "127451136", "process_out_blocks": "0", "process_user_time": 1.279456}
+[0m12:19:19.385224 [debug] [MainThread]: Command `dbt show` failed at 12:19:19.385159 after 0.09 seconds
+[0m12:19:19.385423 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x113f0f360>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x113dff770>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x113d8f240>]}
+[0m12:19:19.385598 [debug] [MainThread]: Flushing usage events
+[0m12:19:19.857092 [debug] [MainThread]: An error was encountered while trying to flush usage events
